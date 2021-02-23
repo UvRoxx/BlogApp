@@ -1,1 +1,1 @@
-gunicorn  hello:application -b xx.xxx.xxx.xx:8000
+gunicorn  blog-with-users-start:main -b xx.xxx.xxx.xx:8000
