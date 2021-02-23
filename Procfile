@@ -1,1 +1,1 @@
-web: gunicorn main:app
+gunicorn  hello:application -b xx.xxx.xxx.xx:8000
